@@ -1,0 +1,27 @@
+name: Build the website to dist directory
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  # Allow manuly run
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    name: Build and deploy to gh pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with: 
+          node-version: '16'
+      - name: Installing dependencies packages
+        run: npm install
+      - name: Set git config
+        run: git config user.name "橙梓"&& git config user.email "me@orangii.cn"
+      - name: Build it!
+        run: npm run build
+      - name: Push these to origin
+        run: git commit -a -m "Build for Github Pages [skip actions]" -S && git push
