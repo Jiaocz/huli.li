@@ -2,6 +2,7 @@
   "name": "hulili-vue-ts",
   "version": "0.1.0",
   "description": "狐狸狸的小窝，试手Vue-ts",
+  "homepage": "https://huli.li",
   "author": "Orangii|橙梓",
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "jquery": "^8.3.1"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.13",
