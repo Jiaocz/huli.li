@@ -18,7 +18,9 @@ jobs:
         with: 
           node-version: '16'
       - name: Installing dependencies packages
-        run: npm install
+        run: |
+          npm install
+          npm install jquery
       - name: Build it!
         run: npm run build
       - name: Push to github pages
