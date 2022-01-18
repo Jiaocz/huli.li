@@ -19,9 +19,10 @@ jobs:
           node-version: '16'
       - name: Installing dependencies packages
         run: npm install
-      - name: Set git config
-        run: git config user.name "橙梓"&& git config user.email "me@orangii.cn"
       - name: Build it!
         run: npm run build
-      - name: Push these to origin
-        run: git commit -a -m "Build for Github Pages [skip actions]" -S && git push
+      - name: Push to github pages
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: gh-pages
+          folder: dist
