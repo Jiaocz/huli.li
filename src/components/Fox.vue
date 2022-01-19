@@ -39,7 +39,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 
 interface Props {
   isDaytime: boolean;
@@ -50,6 +50,7 @@ const props = withDefaults(defineProps<Props>(), {
 // Or you can use defineProps<Props>() if you don't need default value.
 
 let inputLabel = ref(!props.isDaytime);
+watch(props, (newVal) => inputLabel.value = !newVal.isDaytime);
 
 console.log('%cFox - CSS Switch - Day and Night%chttps://codepen.io/AngelaVelasquez/pen/cihEG', 'color: rgba(255,255,255,.8); background: #222; border-radius: 5px 0 0 5px; margin: 0; border: #222 1px solid; padding: .5em; font-weight: bold;', 'color: #222; border: 1px #222 solid; border-radius: 0 5px 5px 0; padding: .5em;');
 </script>
