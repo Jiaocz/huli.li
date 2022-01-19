@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import { QWEATHER_KEY } from './../data/common/keys';
-import { IPosition } from '../data/interfaces/common';
+import { IPosition } from '../data/interfaces/position';
 import { IWeather } from '../data/interfaces/weather';
 
 export const realtimeWeather = async ({lat, lng}: IPosition): Promise<IWeather> => {

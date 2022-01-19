@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import { IPLocationResult } from "../data/interfaces/common";
+import { IPLocationResult } from "../data/interfaces/position";
 import { TMAP_KEY } from "../data/common/keys";
 
 export const getLocation = async (): Promise<IPLocationResult> => {

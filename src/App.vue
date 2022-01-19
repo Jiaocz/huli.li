@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { IPosition, ISunResult } from './data/interfaces/common';
+import { IPosition } from './data/interfaces/position';
+import { ISun } from './data/interfaces/sun';
 import { getLocation } from './services/location'
 import { getSunRiseAndSet } from './services/sun';
 import { realtimeWeather } from './services/weather';
@@ -9,7 +10,7 @@ import Fox from './components/Fox.vue';
 import Clock from './components/Clock.vue';
 import Footer from './components/Footer.vue';
 
-let sunStatus = ref<ISunResult>();
+let sunStatus = ref<ISun>();
 let position = ref<IPosition>();
 let isDaytime = ref(true);
 let weather = ref<IWeather>();

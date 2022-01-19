@@ -14,9 +14,9 @@
 import { ref, onBeforeUnmount } from 'vue';
 import { IWeather } from '../data/interfaces/weather';
 import 'qweather-icons/font/qweather-icons.css';
-import { ISunResult } from '../data/interfaces/common';
+import { ISun } from '../data/interfaces/sun';
 
-interface Props {weather?: IWeather, sun?: ISunResult}
+interface Props {weather?: IWeather, sun?: ISun}
 
 const props = defineProps<Props>();
 
