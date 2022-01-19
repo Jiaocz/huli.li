@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue';
+import { ref, onBeforeUnmount } from 'vue';
 import { IWeather } from '../data/interfaces/weather';
 import 'qweather-icons/font/qweather-icons.css';
 import { ISunResult } from '../data/interfaces/common';
@@ -36,16 +36,9 @@ const updateTime = () => {
 };
 updateTime();
 const timerID = setInterval(updateTime, 1000);
+onBeforeUnmount(() => clearInterval(timerID));
 
 console.log('%cClock - Digital Clock with Vue.js%chttps://codepen.io/gau/pen/LjQwGp', 'color: rgba(255,255,255,.8); background: #222; border-radius: 5px 0 0 5px; margin: 0; border: #222 1px solid; padding: .5em; font-weight: bold;', 'color: #222; border: 1px #222 solid; border-radius: 0 5px 5px 0; padding: .5em;');
-</script>
-
-<script lang="ts">
-export default {
-  beforeDestroy() {
-    clearInterval(timerID);
-  },
-}
 </script>
 
 <style scoped lang="scss">
@@ -55,7 +48,7 @@ p {
   padding: 0;
 }
 #clock {
-  padding-top: 1rem;
+  padding-top: .5rem;
   padding-left: 1em;
   padding-right: 1em;
   /* font-family: "Share Tech Mono", monospace; */
