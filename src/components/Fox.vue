@@ -62,7 +62,7 @@ console.log('%cFox - CSS Switch - Day and Night%chttps://codepen.io/AngelaVelasq
   width: 500px;
   max-width: 90vw;
   height: 350px;
-  margin: 4.5rem auto;
+  margin: 4rem auto;
 }
 
 .c-window {

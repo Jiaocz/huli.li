@@ -15,6 +15,7 @@ import '../assets/moe-icp/index.css';
 
 <style scoped>
   .footer {
+    margin-top: 1.5em;
     opacity: .6;
   }
 
