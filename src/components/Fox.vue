@@ -32,7 +32,9 @@
         </div>
       </div>
     </div>
-    <p class="copyright">This cute fox is forked from <a href="https://codepen.io/AngelaVelasquez/pen/cihEG" target="_blank" rel="noopener noreferrer">https://codepen.io/AngelaVelasquez/pen/cihEG</a></p>
+    <p class="copyright">一只狐狸狸的小窝，它会告诉你天气的哦~</p>
+    <p class="copyright" style="opacity: .25;">另外，本域名可出售，喜欢狐狸狸的朋友可以邮件联系我哦：<a href="mailto:me@orangii.cn">me@orangii.cn</a></p>
+    
   </div>
 </template>
 
@@ -47,7 +49,9 @@ const props = withDefaults(defineProps<Props>(), {
 });
 // Or you can use defineProps<Props>() if you don't need default value.
 
-let inputLabel = ref(props.isDaytime);
+let inputLabel = ref(!props.isDaytime);
+
+console.log('%cFox - CSS Switch - Day and Night%chttps://codepen.io/AngelaVelasquez/pen/cihEG', 'color: rgba(255,255,255,.8); background: #222; border-radius: 5px 0 0 5px; margin: 0; border: #222 1px solid; padding: .5em; font-weight: bold;', 'color: #222; border: 1px #222 solid; border-radius: 0 5px 5px 0; padding: .5em;');
 </script>
 
 <style scoped>

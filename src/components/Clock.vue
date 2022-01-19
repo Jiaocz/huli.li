@@ -36,6 +36,8 @@ const updateTime = () => {
 };
 updateTime();
 const timerID = setInterval(updateTime, 1000);
+
+console.log('%cClock - Digital Clock with Vue.js%chttps://codepen.io/gau/pen/LjQwGp', 'color: rgba(255,255,255,.8); background: #222; border-radius: 5px 0 0 5px; margin: 0; border: #222 1px solid; padding: .5em; font-weight: bold;', 'color: #222; border: 1px #222 solid; border-radius: 0 5px 5px 0; padding: .5em;');
 </script>
 
 <script lang="ts">
