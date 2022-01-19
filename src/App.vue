@@ -25,7 +25,6 @@ let weather = ref<IWeather>();
   const weatherNow = await realtimeWeather(position.value);
   weather.value = weatherNow;
 })();
-console.log('%c狐狸狸的小窝 - huli.li%chttps://huli.li/%chttps://github.com/Jiaocz/huli.li', 'color: rgba(255,255,255,.8); background: #e4a240; border-radius: 5px 0 0 5px; margin: 0; border: #e4a240 1px solid; padding: .5em; font-weight: bold;', 'color: #e4a240; border: 1px #e4a240 solid; border-radius: 0; padding: .5em;','color: #e4a240; border: 1px #e4a240 solid; border-radius: 0 5px 5px 0; padding: .5em;');
 </script>
 
 <template>

@@ -1,9 +1,13 @@
 {
-  "name": "hulili-vue-ts",
-  "version": "0.1.0",
+  "name": "huli.li",
+  "version": "0.2.1",
   "description": "狐狸狸的小窝，试手Vue-ts",
   "homepage": "https://huli.li",
-  "author": "Orangii|橙梓",
+  "author": {
+    "name": "Orangii|橙梓",
+    "email": "me@orangii.cn",
+    "url": "https://orangii.cn/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Jiaocz/huli.li"
