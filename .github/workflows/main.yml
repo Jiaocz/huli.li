@@ -1,4 +1,4 @@
-name: Build the website to dist directory
+name: Build and Deploy
 
 on:
   push:
