@@ -12,5 +12,8 @@ export const realtimeWeather = async ({lat, lng}: IPosition): Promise<IWeather> 
       location: `${lng},${lat}`,
     }
   });
+  if (res.refer.sources && res.refer.sources.length > 0) {
+    console.log(`日出日落信息来源：${res.refer.sources.join(',')}，许可或版权声明：${(res.refer?.license || []).join(',')}`);
+  }
   return res;
 };
