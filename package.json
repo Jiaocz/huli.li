@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "jquery": "^3.6.0",
+    "qweather-icons": "^1.1.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {

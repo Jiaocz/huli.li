@@ -18,10 +18,7 @@ jobs:
         with: 
           node-version: '16'
       - name: Installing dependencies packages
-        run: |
-          npm install
-          npm install jquery
-          npm i qweather-icons
+        run: npm install
       - name: Build it!
         run: npm run build
       - name: Push to github pages
