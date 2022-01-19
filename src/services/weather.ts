@@ -13,7 +13,7 @@ export const realtimeWeather = async ({lat, lng}: IPosition): Promise<IWeather> 
     }
   });
   if (res.refer.sources && res.refer.sources.length > 0) {
-    console.log(`日出日落信息来源：${res.refer.sources.join(',')}，许可或版权声明：${(res.refer?.license || []).join(',')}`);
+    console.log(`天气信息来源：${res.refer.sources.join(',')}，许可或版权声明：${(res.refer?.license || ['无']).join(',')}`);
   }
   return res;
 };
