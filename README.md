@@ -1,5 +1,6 @@
 <h1 align="center">🦊 狐狸狸 - huli.li</h1>
 <p align="center">
+  <a href="https://github.com/Jiaocz/huli.li/security/code-scanning"><img src="https://github.com/Jiaocz/huli.li/actions/workflows/codeql-analysis.yml/badge.svg" /></a>&nbsp;
   <a href="https://github.com/Jiaocz/huli.li/actions/workflows/main.yml"><img src="https://github.com/Jiaocz/huli.li/actions/workflows/main.yml/badge.svg" /></a>&nbsp;
   <a href="https://github.com/Jiaocz/huli.li/releases/latest"><img src="https://img.shields.io/github/v/release/jiaocz/huli.li.svg" /></a>&nbsp;
   <a href="https://github.com/Jiaocz/huli.li/pulse"><img src="https://visitor-badge.glitch.me/badge?page_id=Jiaocz.huli.li" /></a>&nbsp;
