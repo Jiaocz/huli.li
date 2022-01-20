@@ -11,6 +11,8 @@
 
 使用[Vite.js](https://vitejs.dev)建立项目，请求使用的是jQuery（因为axios会出现跨域），天气接口使用的和风天气，位置接口使用腾讯地图。
 
+![ScreenShot](https://github.com/Jiaocz/huli.li/blob/master/cover.png)
+
 ## 如何使用
 
 ### 更改API Key
