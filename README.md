@@ -20,10 +20,11 @@
 更改`src/data/common/keys.ts`中的API_KEY，具体申请请进入文件查看申请链接
 ### 安装依赖
 ```shell
-cnpm install
-cnpm install jquery
-cnpm i qweather-icons
+pnpm install
+pnpm install jquery
+pnpm i qweather-icons
 ```
+> 如果你没有`pnpm`也可以仅用`npm`
 
 ### 修改&预览
 ```shell
