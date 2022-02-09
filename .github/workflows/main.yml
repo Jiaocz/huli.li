@@ -21,8 +21,8 @@ jobs:
         run: npm install
       - name: Build it!
         run: npm run build
-      - name: Push to github pages
-        uses: JamesIves/github-pages-deploy-action@4.0.0
-        with:
-          branch: gh-pages
-          folder: dist
+#      - name: Push to github pages
+#        uses: JamesIves/github-pages-deploy-action@4.0.0
+#        with:
+#          branch: gh-pages
+#          folder: dist
