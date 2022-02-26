@@ -2,10 +2,10 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { IPosition } from './data/interfaces/position';
 import { ISun } from './data/interfaces/sun';
+import { IWeather } from './data/interfaces/weather';
 import { getLocation } from './services/location'
 import { getSunRiseAndSet } from './services/sun';
 import { realtimeWeather } from './services/weather';
-import { IWeather } from './data/interfaces/weather';
 import Fox from './components/Fox.vue';
 import Clock from './components/Clock.vue';
 import Footer from './components/Footer.vue';
