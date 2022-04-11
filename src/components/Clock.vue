@@ -2,7 +2,7 @@
   <div id="clock">
     <p class="time">{{ time }}</p>
     <p class="text" v-if="weather">
-      <i :class="{['qi-' + weather?.now.icon]: true}" style="margin-right: .5em;"></i>{{ weather.now.text }}, {{ weather.now.temp }}℃（体感温度{{weather.now.feelsLike}}℃）,{{weather.now.windDir}}{{weather.now.windScale}}级，相对湿度{{weather.now.humidity}}%
+      <i :class="`qi-${weather?.now.icon}`" style="margin-right: .5em;"></i>{{ weather.now.text }}, {{ weather.now.temp }}℃（体感温度{{weather.now.feelsLike}}℃）,{{weather.now.windDir}}{{weather.now.windScale}}级，相对湿度{{weather.now.humidity}}%
     </p>
     <p class="text" v-if="sun">
       <i class="fas fa-sun" style="margin-right: .5em;"></i>日出：{{ new Date(sun.sunrise).toLocaleTimeString() }} - 日落：{{ new Date(sun.sunset).toLocaleTimeString() }}
