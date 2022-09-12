@@ -48,6 +48,7 @@ const checkStatus = async () => {
     const now = new Date();
     if (now.getDay() != today) {
       await getSunStatus();
+      today = now.getDay();
     }
     isDaytime.value = new Date(sunStatus.value.sunrise).getTime() < now.getTime() && new Date(sunStatus.value.sunset).getTime() > now.getTime();
   } else {
