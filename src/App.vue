@@ -98,6 +98,9 @@ body {
 <style scoped>
   .container {
     width: 100%;
+    min-height: 100vh;
+    padding: 4rem;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -33,7 +33,7 @@
       </div>
     </div>
     <p class="copyright">一只狐狸狸的小窝，它会告诉你天气的哦~</p>
-    <p class="copyright" style="opacity: .25;">另外，本域名可出售，喜欢狐狸狸的朋友可以邮件联系我哦：<a href="mailto:me@orangii.cn">me@orangii.cn</a></p>
+    <p class="copyright" style="opacity: .25;">感谢大家对狐狸狸的支持，域名已经售出，后续留存页面在 <a href="https://hulili.cz.cyou">hulili.cz.cyou</a></p>
     
   </div>
 </template>
