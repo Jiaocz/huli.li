@@ -25,7 +25,7 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
-    "@babel/types": "^7.17.0",
+    "@babel/types": "^7.22.5",
     "@types/jquery": "^3.5.13",
     "@vitejs/plugin-vue": "^2.0.0",
     "sass": "^1.48.0",
