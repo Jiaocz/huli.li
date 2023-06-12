@@ -22,8 +22,8 @@ devDependencies:
     specifier: ^3.5.13
     version: registry.npmmirror.com/@types/jquery@3.5.13
   '@vitejs/plugin-vue':
-    specifier: ^2.0.0
-    version: registry.npmmirror.com/@vitejs/plugin-vue@2.1.0(vite@2.7.13)(vue@3.2.29)
+    specifier: ^2.3.4
+    version: 2.3.4(vite@2.7.13)(vue@3.2.29)
   sass:
     specifier: ^1.48.0
     version: registry.npmmirror.com/sass@1.49.0
@@ -71,6 +71,17 @@ packages:
 
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
+    dev: true
+
+  /@vitejs/plugin-vue@2.3.4(vite@2.7.13)(vue@3.2.29):
+    resolution: {integrity: sha512-IfFNbtkbIm36O9KB8QodlwwYvTEsJb4Lll4c2IwB3VHc2gie2mSPtSzL0eYay7X2jd/2WX02FjSGTWR6OPr/zg==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      vite: ^2.5.10
+      vue: ^3.2.25
+    dependencies:
+      vite: registry.npmmirror.com/vite@2.7.13(sass@1.49.0)
+      vue: registry.npmmirror.com/vue@3.2.29
     dev: true
 
   /@volar/language-core@1.2.0-alpha.13:
@@ -574,20 +585,6 @@ packages:
     resolution: {integrity: sha1-/14vGQKWnTBSJaBHyKD9XJFc6+8=, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@types/sizzle/download/@types/sizzle-2.3.3.tgz?cache=0&sync_timestamp=1637464338189&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fsizzle%2Fdownload%2F%40types%2Fsizzle-2.3.3.tgz}
     name: '@types/sizzle'
     version: 2.3.3
-    dev: true
-
-  registry.npmmirror.com/@vitejs/plugin-vue@2.1.0(vite@2.7.13)(vue@3.2.29):
-    resolution: {integrity: sha512-AZ78WxvFMYd8JmM/GBV6a6SGGTU0GgN/0/4T+FnMMsLzFEzTeAUwuraapy50ifHZsC+G5SvWs86bvaCPTneFlA==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue/download/@vitejs/plugin-vue-2.1.0.tgz}
-    id: registry.npmmirror.com/@vitejs/plugin-vue/2.1.0
-    name: '@vitejs/plugin-vue'
-    version: 2.1.0
-    engines: {node: '>=12.0.0'}
-    peerDependencies:
-      vite: ^2.5.10
-      vue: ^3.2.25
-    dependencies:
-      vite: registry.npmmirror.com/vite@2.7.13(sass@1.49.0)
-      vue: registry.npmmirror.com/vue@3.2.29
     dev: true
 
   registry.npmmirror.com/@vue/compiler-dom@3.2.29:
