@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@fortawesome/fontawesome-free':
-    specifier: ^6.0.0
-    version: registry.npmmirror.com/@fortawesome/fontawesome-free@6.0.0
+    specifier: ^6.4.0
+    version: 6.4.0
   jquery:
     specifier: ^3.7.0
     version: 3.7.0
@@ -68,6 +68,12 @@ packages:
       '@babel/helper-string-parser': 7.22.5
       '@babel/helper-validator-identifier': 7.22.5
       to-fast-properties: 2.0.0
+
+  /@fortawesome/fontawesome-free@6.4.0:
+    resolution: {integrity: sha512-0NyytTlPJwB/BF5LtRV8rrABDbe3TdTXqNB3PdZ+UUUZAEIrdOJdmABqKjt4AXwIoJNaRVVZEXxpNrqvE1GAYQ==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dev: false
 
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
@@ -632,14 +638,6 @@ packages:
     name: path-parse
     version: 1.0.7
     dev: true
-
-  registry.npmmirror.com/@fortawesome/fontawesome-free@6.0.0:
-    resolution: {integrity: sha512-6LB4PYBST1Rx40klypw1SmSDArjFOcfBf2LeX9Zg5EKJT2eXiyiJq+CyBYKeXyK0sXS2FsCJWSPr/luyhuvh0Q==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.0.0.tgz}
-    name: '@fortawesome/fontawesome-free'
-    version: 6.0.0
-    engines: {node: '>=6'}
-    requiresBuild: true
-    dev: false
 
   registry.npmmirror.com/@vue/compiler-dom@3.2.29:
     resolution: {integrity: sha512-y26vK5khdNS9L3ckvkqJk/78qXwWb75Ci8iYLb67AkJuIgyKhIOcR1E8RIt4mswlVCIeI9gQ+fmtdhaiTAtrBQ==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@vue/compiler-dom/download/@vue/compiler-dom-3.2.29.tgz}
